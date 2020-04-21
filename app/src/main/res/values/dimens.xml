@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard">128dp</dimen>
+    <dimen name="standart_text">20sp</dimen>
+    <dimen name="green_size_text">20sp</dimen>
+</resources>
