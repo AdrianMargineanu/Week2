@@ -3,9 +3,9 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
-    <color name="Orange">#FF9472</color>
-    <color name="green">#6BEA8C</color>
-    <color name="blue">#2AB4C1</color>
-    <color name="green_button">#C06C9C3B</color>
-    <color name="yellow">#FFBF00</color>
+    <color name="Orange">#FD987A</color>
+    <color name="green">#CCEED6</color>
+    <color name="blue">#79CBC5</color>
+    <color name="green_button">#A2C99A</color>
+    <color name="yellow">#FCCA59</color>
 </resources>

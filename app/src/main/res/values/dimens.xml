@@ -3,4 +3,5 @@
     <dimen name="standard">128dp</dimen>
     <dimen name="standart_text">20sp</dimen>
     <dimen name="green_size_text">20sp</dimen>
+    <dimen name="padding_buttons">8dp</dimen>
 </resources>

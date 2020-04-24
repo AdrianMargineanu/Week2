@@ -29,6 +29,7 @@
             android:background="@color/green"
             android:gravity="center"
             android:text="@string/green"
+            android:textColor="@android:color/background_dark"
             android:textSize="@dimen/green_size_text" />
 
         <TextView
@@ -38,13 +39,15 @@
             android:background="@color/blue"
             android:gravity="center"
             android:text="@string/blue"
+            android:textColor="@android:color/white"
             android:textSize="@dimen/green_size_text" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/standard"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_buttons">
 
         <Button
             android:layout_width="0dp"
@@ -69,17 +72,17 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="32dp"
+        android:layout_height="48dp"
         android:background="@color/yellow"
         android:gravity="bottom"
-        android:hint="@string/_hit"></EditText>
+        android:hint="@string/_hit" />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="32dp"
+        android:layout_height="57dp"
         android:background="@color/yellow"
         android:gravity="bottom"
-        android:hint="@string/Hit2"></EditText>
+        android:hint="@string/Hit2" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -112,8 +115,9 @@
 
         <RatingBar
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:isIndicator="false"
+
             android:numStars="5"
             android:rating="4"
             android:stepSize="1" />
